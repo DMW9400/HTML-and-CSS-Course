@@ -5,7 +5,7 @@
   <body>
     <h1>Intro</h1>
     <p>We&apos;re testing apostrophe</p>
-    <ul>
+    <ul type='square'>
       <p>An Unordered List</p>
       <li>Item One</li>
       <li>Item Two</li>
@@ -13,8 +13,45 @@
     <ol type="1">
       <!-- Type notes - 'A' gives letters, 'i' or 'I' give roman numerals -->
       <li>List Item One</li>
-      <li>List Item Two</li>
+      <li value='11'>List Item Two</li>
       <li>List Item Three</li>
     </ol>
+    <ul>
+      <p>Nested Lists</p>
+      <li>Programming Languages</li>
+      <ul>
+        <li>JS</li>
+        <li>Ruby</li>
+      </ul>
+      <li>Favorite Movies</li>
+        <ol>
+          <li>Apocalypse Now</li>
+          <li>The Matrix</li>
+          <li>Kramer vs. Kramer</li>
+        </ol>
+    </ul>
+    <dl>
+      <dt><u>Coffee</u></dt>
+      <dd>A caffeinated and wonderful drink</dd>
+      <dt><u>Tea</u></dt>
+      <dd>A less caffeinated and less wonderful, but still pleasant, drink</dd>
+    </dl>
+    <table border='1'>
+      <tr>
+        <th width='300' >Table header 1</th>
+        <th width='50'>Table header 2</th>
+        <th height ='90'>Table header 3</th>
+      </tr>
+      <tr>
+        <td>First Cell</td>
+        <td>Second Cell</td>
+        <td>Third Cell</td>
+      </tr>
+      <tr>
+        <td>Second row, First Cell</td>
+        <td>Second row, Second Cell</td>
+        <td>Second row, Third Cell</td>
+      </tr>
+    </table>
   </body>
 </html>
